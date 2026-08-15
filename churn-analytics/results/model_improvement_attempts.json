@@ -1,0 +1,60 @@
+{
+  "baseline": {
+    "LogisticRegression": {
+      "accuracy": 0.8034066713981547,
+      "precision": 0.6655290102389079,
+      "recall": 0.5213903743315508,
+      "f1": 0.5847076461769115,
+      "roc_auc": 0.8418223152238496,
+      "pr_auc": 0.6339077054281583,
+      "confusion_matrix": [
+        [
+          937,
+          98
+        ],
+        [
+          179,
+          195
+        ]
+      ]
+    }
+  },
+  "attempts": {
+    "LogReg_balanced_wider": {
+      "best_params": {
+        "clf__C": 0.05
+      },
+      "roc_auc": 0.8434420935699709,
+      "f1": 0.6276595744680851,
+      "precision": 0.5212014134275619,
+      "recall": 0.7887700534759359
+    },
+    "VotingEnsemble": {
+      "roc_auc": 0.8438786845436462,
+      "f1": 0.6041666666666666,
+      "precision": 0.5888324873096447,
+      "recall": 0.6203208556149733
+    },
+    "RandomForest_balanced": {
+      "best_params": {
+        "clf__max_depth": 10,
+        "clf__n_estimators": 200
+      },
+      "roc_auc": 0.8399080317238884,
+      "f1": 0.6305309734513275,
+      "precision": 0.5377358490566038,
+      "recall": 0.7620320855614974
+    },
+    "XGBoost_balanced": {
+      "best_params": {
+        "clf__max_depth": 3,
+        "clf__n_estimators": 100
+      },
+      "scale_pos_weight_used": 2.768561872909699,
+      "roc_auc": 0.8345475212482886,
+      "f1": 0.620021528525296,
+      "precision": 0.518918918918919,
+      "recall": 0.7700534759358288
+    }
+  }
+}
