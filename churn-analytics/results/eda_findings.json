@@ -1,0 +1,214 @@
+{
+  "numerical_summary": {
+    "tenure": {
+      "mean": 32.37114865824223,
+      "median": 29.0,
+      "std": 24.55948102309446,
+      "q1": 9.0,
+      "q3": 55.0,
+      "skewness": 0.2395397495619829,
+      "min": 0.0,
+      "max": 72.0
+    },
+    "MonthlyCharges": {
+      "mean": 64.76169246059918,
+      "median": 70.35,
+      "std": 30.090047097678493,
+      "q1": 35.5,
+      "q3": 89.85,
+      "skewness": -0.22052443394398033,
+      "min": 18.25,
+      "max": 118.75
+    },
+    "TotalCharges": {
+      "mean": 2279.7343035638223,
+      "median": 1394.55,
+      "std": 2266.7944696890213,
+      "q1": 398.55,
+      "q3": 3786.6,
+      "skewness": 0.963234654832277,
+      "min": 0.0,
+      "max": 8684.8
+    }
+  },
+  "categorical_summary": {
+    "gender": {
+      "frequency": {
+        "Male": 3555,
+        "Female": 3488
+      },
+      "churn_rate_pct": {
+        "Female": 26.92,
+        "Male": 26.16
+      }
+    },
+    "Partner": {
+      "frequency": {
+        "No": 3641,
+        "Yes": 3402
+      },
+      "churn_rate_pct": {
+        "No": 32.96,
+        "Yes": 19.66
+      }
+    },
+    "Dependents": {
+      "frequency": {
+        "No": 4933,
+        "Yes": 2110
+      },
+      "churn_rate_pct": {
+        "No": 31.28,
+        "Yes": 15.45
+      }
+    },
+    "PhoneService": {
+      "frequency": {
+        "Yes": 6361,
+        "No": 682
+      },
+      "churn_rate_pct": {
+        "No": 24.93,
+        "Yes": 26.71
+      }
+    },
+    "MultipleLines": {
+      "frequency": {
+        "No": 3390,
+        "Yes": 2971,
+        "No phone service": 682
+      },
+      "churn_rate_pct": {
+        "No": 25.04,
+        "No phone service": 24.93,
+        "Yes": 28.61
+      }
+    },
+    "InternetService": {
+      "frequency": {
+        "Fiber optic": 3096,
+        "DSL": 2421,
+        "No": 1526
+      },
+      "churn_rate_pct": {
+        "DSL": 18.96,
+        "Fiber optic": 41.89,
+        "No": 7.4
+      }
+    },
+    "OnlineSecurity": {
+      "frequency": {
+        "No": 3498,
+        "Yes": 2019,
+        "No internet service": 1526
+      },
+      "churn_rate_pct": {
+        "No": 41.77,
+        "No internet service": 7.4,
+        "Yes": 14.61
+      }
+    },
+    "OnlineBackup": {
+      "frequency": {
+        "No": 3088,
+        "Yes": 2429,
+        "No internet service": 1526
+      },
+      "churn_rate_pct": {
+        "No": 39.93,
+        "No internet service": 7.4,
+        "Yes": 21.53
+      }
+    },
+    "DeviceProtection": {
+      "frequency": {
+        "No": 3095,
+        "Yes": 2422,
+        "No internet service": 1526
+      },
+      "churn_rate_pct": {
+        "No": 39.13,
+        "No internet service": 7.4,
+        "Yes": 22.5
+      }
+    },
+    "TechSupport": {
+      "frequency": {
+        "No": 3473,
+        "Yes": 2044,
+        "No internet service": 1526
+      },
+      "churn_rate_pct": {
+        "No": 41.64,
+        "No internet service": 7.4,
+        "Yes": 15.17
+      }
+    },
+    "StreamingTV": {
+      "frequency": {
+        "No": 2810,
+        "Yes": 2707,
+        "No internet service": 1526
+      },
+      "churn_rate_pct": {
+        "No": 33.52,
+        "No internet service": 7.4,
+        "Yes": 30.07
+      }
+    },
+    "StreamingMovies": {
+      "frequency": {
+        "No": 2785,
+        "Yes": 2732,
+        "No internet service": 1526
+      },
+      "churn_rate_pct": {
+        "No": 33.68,
+        "No internet service": 7.4,
+        "Yes": 29.94
+      }
+    },
+    "Contract": {
+      "frequency": {
+        "Month-to-month": 3875,
+        "Two year": 1695,
+        "One year": 1473
+      },
+      "churn_rate_pct": {
+        "Month-to-month": 42.71,
+        "One year": 11.27,
+        "Two year": 2.83
+      }
+    },
+    "PaperlessBilling": {
+      "frequency": {
+        "Yes": 4171,
+        "No": 2872
+      },
+      "churn_rate_pct": {
+        "No": 16.33,
+        "Yes": 33.57
+      }
+    },
+    "PaymentMethod": {
+      "frequency": {
+        "Electronic check": 2365,
+        "Mailed check": 1612,
+        "Bank transfer (automatic)": 1544,
+        "Credit card (automatic)": 1522
+      },
+      "churn_rate_pct": {
+        "Bank transfer (automatic)": 16.71,
+        "Credit card (automatic)": 15.24,
+        "Electronic check": 45.29,
+        "Mailed check": 19.11
+      }
+    }
+  },
+  "numerical_correlations_with_churn": {
+    "tenure": -0.35222867011307885,
+    "MonthlyCharges": 0.19335642223784716,
+    "TotalCharges": -0.1983242626039948,
+    "SeniorCitizen": 0.15088932817647233
+  }
+}
