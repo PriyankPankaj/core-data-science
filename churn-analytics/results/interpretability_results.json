@@ -1,0 +1,124 @@
+{
+  "permutation_importance_top10": [
+    {
+      "feature": "tenure",
+      "importance_mean": 0.08217907980056308,
+      "importance_std": 0.0034194660628779185
+    },
+    {
+      "feature": "is_month_to_month",
+      "importance_mean": 0.028715802526544088,
+      "importance_std": 0.004087242655327392
+    },
+    {
+      "feature": "InternetService",
+      "importance_mean": 0.00795293084295634,
+      "importance_std": 0.0038098123131957325
+    },
+    {
+      "feature": "Contract",
+      "importance_mean": 0.005217003797566344,
+      "importance_std": 0.0021670930363786975
+    },
+    {
+      "feature": "tenure_bucket",
+      "importance_mean": 0.004646206308610323,
+      "importance_std": 0.0013900856034997503
+    },
+    {
+      "feature": "PaperlessBilling",
+      "importance_mean": 0.0021681004417576587,
+      "importance_std": 0.001413650521231548
+    },
+    {
+      "feature": "PhoneService",
+      "importance_mean": 0.0021254746958070947,
+      "importance_std": 0.0011177515391607713
+    },
+    {
+      "feature": "payment_delay_risk",
+      "importance_mean": 0.002038414838926239,
+      "importance_std": 0.0012205422631196465
+    },
+    {
+      "feature": "OnlineSecurity",
+      "importance_mean": 0.0019376630757703794,
+      "importance_std": 0.0009200963805757583
+    },
+    {
+      "feature": "MultipleLines",
+      "importance_mean": 0.0017685809501665096,
+      "importance_std": 0.0012464826631850587
+    }
+  ],
+  "native_importance_type": "coefficient",
+  "native_importance_top10": [
+    {
+      "feature": "num__tenure",
+      "importance": -0.7794242658060585
+    },
+    {
+      "feature": "cat__InternetService_Fiber optic",
+      "importance": 0.5821872813538884
+    },
+    {
+      "feature": "num__is_month_to_month",
+      "importance": 0.4924749960035031
+    },
+    {
+      "feature": "cat__Contract_Two year",
+      "importance": -0.4743118016244434
+    },
+    {
+      "feature": "cat__PaperlessBilling_Yes",
+      "importance": 0.36360624102534617
+    },
+    {
+      "feature": "cat__OnlineSecurity_Yes",
+      "importance": -0.3382771326464302
+    },
+    {
+      "feature": "cat__tenure_bucket_Loyal (48-72mo)",
+      "importance": 0.3272207372751485
+    },
+    {
+      "feature": "cat__PhoneService_Yes",
+      "importance": -0.31641818204393674
+    },
+    {
+      "feature": "cat__tenure_bucket_New (0-12mo)",
+      "importance": 0.3135982874123901
+    },
+    {
+      "feature": "cat__MultipleLines_No phone service",
+      "importance": 0.29609873776095597
+    }
+  ],
+  "example_individual_explanation": [
+    {
+      "feature": "num__tenure",
+      "shap_value": 0.730673673410066,
+      "direction": "increases churn risk"
+    },
+    {
+      "feature": "num__is_month_to_month",
+      "shap_value": 0.4356131255203966,
+      "direction": "increases churn risk"
+    },
+    {
+      "feature": "cat__InternetService_Fiber optic",
+      "shap_value": -0.250340530982172,
+      "direction": "decreases churn risk"
+    },
+    {
+      "feature": "cat__PaperlessBilling_Yes",
+      "shap_value": -0.21089161979470075,
+      "direction": "decreases churn risk"
+    },
+    {
+      "feature": "cat__tenure_bucket_New (0-12mo)",
+      "shap_value": 0.21011085256630135,
+      "direction": "increases churn risk"
+    }
+  ]
+}
