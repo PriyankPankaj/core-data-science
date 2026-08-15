@@ -1,0 +1,74 @@
+{
+  "optimal_k": 6,
+  "silhouette_scores_by_k": {
+    "2": 0.31834870669038,
+    "3": 0.34499042896475157,
+    "4": 0.4026785712789479,
+    "5": 0.40230492849706434,
+    "6": 0.4129192281492791,
+    "7": 0.4100940531515319,
+    "8": 0.3903672067173397
+  },
+  "cluster_sizes": {
+    "0": 753,
+    "1": 1069,
+    "2": 1553,
+    "3": 1284,
+    "4": 1430,
+    "5": 954
+  },
+  "churn_rate_by_cluster": {
+    "0": 26.029216467463478,
+    "1": 30.77642656688494,
+    "2": 56.213779781068894,
+    "3": 2.102803738317757,
+    "4": 7.8321678321678325,
+    "5": 34.80083857442348
+  },
+  "churn_rate_spread_pp": 54.11097604275113,
+  "segmentation_meaningful": true,
+  "cluster_profiles": {
+    "0": {
+      "tenure": 50.40504648074369,
+      "MonthlyCharges": 92.26932270916335,
+      "service_count": 4.416998671978751,
+      "is_month_to_month": 0.4116865869853918,
+      "payment_delay_risk": 1.0
+    },
+    "1": {
+      "tenure": 9.05799812909261,
+      "MonthlyCharges": 37.63358278765202,
+      "service_count": 0.5266604303086997,
+      "is_month_to_month": 1.0,
+      "payment_delay_risk": 0.0
+    },
+    "2": {
+      "tenure": 12.372182871860915,
+      "MonthlyCharges": 70.47868641339343,
+      "service_count": 1.7443657437218287,
+      "is_month_to_month": 0.9916291049581455,
+      "payment_delay_risk": 1.0
+    },
+    "3": {
+      "tenure": 40.441588785046726,
+      "MonthlyCharges": 27.41915887850467,
+      "service_count": 0.6900311526479751,
+      "is_month_to_month": 0.0,
+      "payment_delay_risk": 0.045950155763239874
+    },
+    "4": {
+      "tenure": 57.8979020979021,
+      "MonthlyCharges": 86.6074125874126,
+      "service_count": 4.872027972027972,
+      "is_month_to_month": 0.006293706293706294,
+      "payment_delay_risk": 0.0
+    },
+    "5": {
+      "tenure": 27.69077568134172,
+      "MonthlyCharges": 81.65545073375263,
+      "service_count": 3.011530398322851,
+      "is_month_to_month": 0.9926624737945493,
+      "payment_delay_risk": 0.0
+    }
+  }
+}
