@@ -46,14 +46,28 @@ elif page == "Statistical Tests":
     df_results = pd.DataFrame(results)
     st.dataframe(df_results[["feature", "test", "p_value", "p_value_bonferroni",
                               "significant_bh_fdr", "effect_size"]])
-
 elif page == "Model Comparison":
     st.title("Model Comparison")
+
+    st.subheader("Phase 5: Baseline Models")
     results = load_json("ml_results.json")
     rows = []
     for name, r in results.items():
         rows.append({"Model": name, **r["test_metrics"]})
     st.dataframe(pd.DataFrame(rows).drop(columns=["confusion_matrix"]))
+
+    st.subheader("Improvement Attempts (class-weighted / ensemble / feature selection)")
+    improvement = load_json("model_improvement_attempts.json")
+    improvement_rows = []
+    for name, r in improvement["attempts"].items():
+        row = {"Model": name, "roc_auc": r["roc_auc"], "f1": r["f1"],
+               "precision": r["precision"], "recall": r["recall"]}
+        improvement_rows.append(row)
+    st.dataframe(pd.DataFrame(improvement_rows))
+
+    st.success("**Deployed model: RandomForest_balanced** — selected by F1 "
+               "(0.6305), not ROC-AUC alone, since recall matters more than "
+               "a marginal AUC edge in this business context.")
 
 elif page == "Feature Importance":
     st.title("Feature Importance")
