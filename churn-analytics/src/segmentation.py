@@ -101,7 +101,7 @@ if __name__ == "__main__":
     print(f"\n=== Cluster profiles (mean feature values) ===")
     print(cluster_profile.to_string())
 
-    with open(f"{RESULTS_DIR}/segmentation_resultsV2.json", "w") as f:
+    with open(f"{RESULTS_DIR}/segmentation_results.json", "w") as f:
         json.dump({
             "optimal_k": int(best_k),
             "silhouette_scores_by_k": dict(zip(k_range, silhouettes)),
