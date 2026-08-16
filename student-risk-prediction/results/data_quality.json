@@ -1,0 +1,104 @@
+{
+  "rows_before": 649,
+  "columns_before": 34,
+  "missing_values": {},
+  "duplicate_rows": 0,
+  "dtype_issues": [],
+  "invalid_values": {},
+  "categorical_unique_values": {
+    "school": [
+      "GP",
+      "MS"
+    ],
+    "sex": [
+      "F",
+      "M"
+    ],
+    "address": [
+      "U",
+      "R"
+    ],
+    "famsize": [
+      "GT3",
+      "LE3"
+    ],
+    "Pstatus": [
+      "A",
+      "T"
+    ],
+    "Mjob": [
+      "at_home",
+      "health",
+      "other",
+      "services",
+      "teacher"
+    ],
+    "Fjob": [
+      "teacher",
+      "other",
+      "services",
+      "health",
+      "at_home"
+    ],
+    "reason": [
+      "course",
+      "other",
+      "home",
+      "reputation"
+    ],
+    "guardian": [
+      "mother",
+      "father",
+      "other"
+    ],
+    "schoolsup": [
+      "yes",
+      "no"
+    ],
+    "famsup": [
+      "no",
+      "yes"
+    ],
+    "paid": [
+      "no",
+      "yes"
+    ],
+    "activities": [
+      "no",
+      "yes"
+    ],
+    "nursery": [
+      "yes",
+      "no"
+    ],
+    "higher": [
+      "yes",
+      "no"
+    ],
+    "internet": [
+      "no",
+      "yes"
+    ],
+    "romantic": [
+      "no",
+      "yes"
+    ]
+  },
+  "absences_stats": {
+    "mean": 3.6594761171032357,
+    "median": 2.0,
+    "max": 32.0,
+    "q99": 21.0
+  },
+  "leakage_columns_excluded": [
+    "G1",
+    "G2",
+    "G3"
+  ],
+  "class_distribution": {
+    "0": 549,
+    "1": 100
+  },
+  "rows_after": 649,
+  "columns_after": 31
+}
