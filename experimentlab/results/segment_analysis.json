@@ -1,0 +1,46 @@
+{
+  "note": "Segments derived from sum_gamerounds quartiles (real data-driven proxy); the source dataset does not include device/region/demographic columns.",
+  "results": [
+    {
+      "segment": "engagement_level=Q1_lowest",
+      "n_control": 12056,
+      "n_treatment": 12661,
+      "rate_control": 0.012193098871930989,
+      "rate_treatment": 0.013111128662822841,
+      "lift": 0.0009180297908918528,
+      "p_value": 0.518804091696032,
+      "significant": false
+    },
+    {
+      "segment": "engagement_level=Q2_low",
+      "n_control": 10113,
+      "n_treatment": 10284,
+      "rate_control": 0.041728468308118265,
+      "rate_treatment": 0.04093737845196422,
+      "lift": -0.0007910898561540453,
+      "p_value": 0.7765706571133868,
+      "significant": false
+    },
+    {
+      "segment": "engagement_level=Q3_high",
+      "n_control": 11562,
+      "n_treatment": 11060,
+      "rate_control": 0.14772530704030445,
+      "rate_treatment": 0.1321880650994575,
+      "lift": -0.015537241940846963,
+      "p_value": 0.0007646492903557162,
+      "significant": true
+    },
+    {
+      "segment": "engagement_level=Q4_highest",
+      "n_control": 10969,
+      "n_treatment": 11484,
+      "rate_control": 0.5675084328562312,
+      "rate_treatment": 0.54249390456287,
+      "lift": -0.02501452829336115,
+      "p_value": 0.00016330528212666227,
+      "significant": true
+    }
+  ],
+  "effect_direction_consistent": false
+}
