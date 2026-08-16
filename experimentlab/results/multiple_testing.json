@@ -1,0 +1,29 @@
+[
+  {
+    "metric": "retention_1",
+    "p_raw": 0.07440965529691913,
+    "p_bonferroni": 0.2232289658907574,
+    "p_bh_fdr": 0.07440965529691913,
+    "significant_raw": false,
+    "significant_bonferroni": false,
+    "significant_bh_fdr": false
+  },
+  {
+    "metric": "retention_7",
+    "p_raw": 0.001554249975614329,
+    "p_bonferroni": 0.004662749926842987,
+    "p_bh_fdr": 0.004662749926842988,
+    "significant_raw": true,
+    "significant_bonferroni": true,
+    "significant_bh_fdr": true
+  },
+  {
+    "metric": "sum_gamerounds",
+    "p_raw": 0.05020880772044255,
+    "p_bonferroni": 0.15062642316132763,
+    "p_bh_fdr": 0.07440965529691913,
+    "significant_raw": false,
+    "significant_bonferroni": false,
+    "significant_bh_fdr": false
+  }
+]
