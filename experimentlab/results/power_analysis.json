@@ -1,0 +1,22 @@
+{
+  "retention_1": {
+    "baseline_rate": 0.4481879194630872,
+    "observed_effect_absolute": -0.005905169787341458,
+    "actual_n_per_group": 44700,
+    "n_required_80pct_power": 111466,
+    "n_required_90pct_power": 149221,
+    "n_required_95pct_power": 184544,
+    "achieved_power_pct": 42.72451872776839,
+    "approx_mde_at_80pct_power": 0.018638892899902535
+  },
+  "retention_7": {
+    "baseline_rate": 0.19020134228187918,
+    "observed_effect_absolute": -0.008201298315205913,
+    "actual_n_per_group": 44700,
+    "n_required_80pct_power": 36533,
+    "n_required_90pct_power": 48907,
+    "n_required_95pct_power": 60484,
+    "achieved_power_pct": 88.30912109776261,
+    "approx_mde_at_80pct_power": 0.014709223696456289
+  }
+}
