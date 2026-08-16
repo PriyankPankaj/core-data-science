@@ -1,0 +1,36 @@
+{
+  "threshold_used": 10,
+  "threshold_justification": "Standard pass/fail boundary on 0-20 grading scale",
+  "class_distribution": {
+    "0": 549,
+    "1": 100
+  },
+  "class_balance_pct_at_risk": 15.408320493066254,
+  "sensitivity_analysis": {
+    "8": {
+      "at_risk_count": 30,
+      "at_risk_pct": 4.622496147919876
+    },
+    "9": {
+      "at_risk_count": 65,
+      "at_risk_pct": 10.015408320493066
+    },
+    "10": {
+      "at_risk_count": 100,
+      "at_risk_pct": 15.408320493066254
+    },
+    "11": {
+      "at_risk_count": 197,
+      "at_risk_pct": 30.354391371340522
+    },
+    "12": {
+      "at_risk_count": 301,
+      "at_risk_pct": 46.379044684129425
+    }
+  },
+  "leakage_columns_excluded": [
+    "G1",
+    "G2",
+    "G3"
+  ]
+}
