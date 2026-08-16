@@ -1,0 +1,38 @@
+{
+  "srm_check": {
+    "group_counts": {
+      "gate_40": 45489,
+      "gate_30": 44700
+    },
+    "total": 90189,
+    "expected_per_group": 45094.5,
+    "chi2_statistic": 6.9024049496058275,
+    "p_value": 0.008607987810836262,
+    "srm_detected_statistical": true,
+    "alpha_used": 0.01,
+    "largest_group_pct": 50.43741476233243,
+    "relative_imbalance_pp": 0.4374147623324305,
+    "practically_meaningful_imbalance": false,
+    "final_verdict": "STATISTICALLY DETECTED BUT PRACTICALLY NEGLIGIBLE"
+  },
+  "covariate_balance": {
+    "covariate": "sum_gamerounds",
+    "summary_by_group": {
+      "gate_30": {
+        "mean": 52.45626398210291,
+        "median": 17.0,
+        "std": 256.7164231160407,
+        "count": 44700
+      },
+      "gate_40": {
+        "mean": 51.29877552814966,
+        "median": 16.0,
+        "std": 103.29441621652808,
+        "count": 45489
+      }
+    },
+    "mann_whitney_p_value": 0.05020880772044255,
+    "balanced": true
+  },
+  "experiment_valid": true
+}
