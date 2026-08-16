@@ -1,0 +1,17 @@
+{
+  "retention_1": {
+    "metric": "retention_1",
+    "decision": "DO NOT SHIP",
+    "reasons": [
+      "Effect not statistically significant (p=0.0744 >= 0.05).",
+      "Note: experiment was underpowered (42.7% achieved power) \u2014 'not significant' does not mean 'no effect', only that this sample size couldn't reliably detect one this size."
+    ]
+  },
+  "retention_7": {
+    "metric": "retention_7",
+    "decision": "DO NOT SHIP",
+    "reasons": [
+      "Statistically significant AND practically meaningful (-0.82pp), but the effect is NEGATIVE \u2014 treatment performs worse than control."
+    ]
+  }
+}
