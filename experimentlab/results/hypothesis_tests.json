@@ -1,0 +1,36 @@
+{
+  "retention_1": {
+    "metric": "retention_1",
+    "control_group": "gate_30",
+    "treatment_group": "gate_40",
+    "n_control": 44700,
+    "n_treatment": 45489,
+    "rate_control": 0.4481879194630872,
+    "rate_treatment": 0.44228274967574577,
+    "absolute_lift": -0.005905169787341458,
+    "relative_lift_pct": -1.317565585974659,
+    "z_statistic": -1.7840862247974725,
+    "p_value": 0.07440965529691913,
+    "significant": false,
+    "ci_95_low": -0.012392558656738065,
+    "ci_95_high": 0.0005822190820551484,
+    "odds_ratio": 0.976375742632873
+  },
+  "retention_7": {
+    "metric": "retention_7",
+    "control_group": "gate_30",
+    "treatment_group": "gate_40",
+    "n_control": 44700,
+    "n_treatment": 45489,
+    "rate_control": 0.19020134228187918,
+    "rate_treatment": 0.18200004396667327,
+    "absolute_lift": -0.008201298315205913,
+    "relative_lift_pct": -4.311903489646016,
+    "z_statistic": -3.164358912748191,
+    "p_value": 0.001554249975614329,
+    "significant": true,
+    "ci_95_low": -0.01328164577146224,
+    "ci_95_high": -0.003120950858949586,
+    "odds_ratio": 0.9472872405696029
+  }
+}
