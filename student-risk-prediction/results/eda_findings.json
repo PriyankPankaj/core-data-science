@@ -1,0 +1,339 @@
+{
+  "numerical_summary": {
+    "age": {
+      "mean": 16.7442218798151,
+      "median": 17.0,
+      "std": 1.2181376394800656,
+      "q1": 16.0,
+      "q3": 18.0,
+      "skewness": 0.4167953798111204,
+      "min": 15.0,
+      "max": 22.0
+    },
+    "Medu": {
+      "mean": 2.514637904468413,
+      "median": 2.0,
+      "std": 1.134551999953317,
+      "q1": 2.0,
+      "q3": 4.0,
+      "skewness": -0.029950358081110445,
+      "min": 0.0,
+      "max": 4.0
+    },
+    "Fedu": {
+      "mean": 2.3066255778120186,
+      "median": 2.0,
+      "std": 1.099930911140803,
+      "q1": 1.0,
+      "q3": 3.0,
+      "skewness": 0.21534336325478984,
+      "min": 0.0,
+      "max": 4.0
+    },
+    "traveltime": {
+      "mean": 1.568567026194145,
+      "median": 1.0,
+      "std": 0.7486600863534161,
+      "q1": 1.0,
+      "q3": 2.0,
+      "skewness": 1.2476475492990087,
+      "min": 1.0,
+      "max": 4.0
+    },
+    "studytime": {
+      "mean": 1.9306625577812018,
+      "median": 2.0,
+      "std": 0.829509574636615,
+      "q1": 1.0,
+      "q3": 2.0,
+      "skewness": 0.6996192054467889,
+      "min": 1.0,
+      "max": 4.0
+    },
+    "failures": {
+      "mean": 0.2218798151001541,
+      "median": 0.0,
+      "std": 0.5932351492649627,
+      "q1": 0.0,
+      "q3": 0.0,
+      "skewness": 3.092698960847477,
+      "min": 0.0,
+      "max": 3.0
+    },
+    "famrel": {
+      "mean": 3.930662557781202,
+      "median": 4.0,
+      "std": 0.9557168913381863,
+      "q1": 4.0,
+      "q3": 5.0,
+      "skewness": -1.1059340909420583,
+      "min": 1.0,
+      "max": 5.0
+    },
+    "freetime": {
+      "mean": 3.180277349768875,
+      "median": 3.0,
+      "std": 1.051092575357063,
+      "q1": 3.0,
+      "q3": 4.0,
+      "skewness": -0.1812774790934117,
+      "min": 1.0,
+      "max": 5.0
+    },
+    "goout": {
+      "mean": 3.184899845916795,
+      "median": 3.0,
+      "std": 1.175766113842312,
+      "q1": 2.0,
+      "q3": 4.0,
+      "skewness": -0.008579903539792107,
+      "min": 1.0,
+      "max": 5.0
+    },
+    "Dalc": {
+      "mean": 1.50231124807396,
+      "median": 1.0,
+      "std": 0.9248344305673268,
+      "q1": 1.0,
+      "q3": 2.0,
+      "skewness": 2.141913360367646,
+      "min": 1.0,
+      "max": 5.0
+    },
+    "Walc": {
+      "mean": 2.280431432973806,
+      "median": 2.0,
+      "std": 1.2843799719490245,
+      "q1": 1.0,
+      "q3": 3.0,
+      "skewness": 0.6359042701186859,
+      "min": 1.0,
+      "max": 5.0
+    },
+    "health": {
+      "mean": 3.536209553158706,
+      "median": 4.0,
+      "std": 1.4462590500910701,
+      "q1": 2.0,
+      "q3": 5.0,
+      "skewness": -0.5006561886039521,
+      "min": 1.0,
+      "max": 5.0
+    },
+    "absences": {
+      "mean": 3.6594761171032357,
+      "median": 2.0,
+      "std": 4.640758808397153,
+      "q1": 0.0,
+      "q3": 6.0,
+      "skewness": 2.020693704014018,
+      "min": 0.0,
+      "max": 32.0
+    }
+  },
+  "categorical_summary": {
+    "school": {
+      "frequency": {
+        "GP": 423,
+        "MS": 226
+      },
+      "risk_rate_pct": {
+        "GP": 7.57,
+        "MS": 30.09
+      }
+    },
+    "sex": {
+      "frequency": {
+        "F": 383,
+        "M": 266
+      },
+      "risk_rate_pct": {
+        "F": 13.05,
+        "M": 18.8
+      }
+    },
+    "address": {
+      "frequency": {
+        "U": 452,
+        "R": 197
+      },
+      "risk_rate_pct": {
+        "R": 22.34,
+        "U": 12.39
+      }
+    },
+    "famsize": {
+      "frequency": {
+        "GT3": 457,
+        "LE3": 192
+      },
+      "risk_rate_pct": {
+        "GT3": 16.63,
+        "LE3": 12.5
+      }
+    },
+    "Pstatus": {
+      "frequency": {
+        "T": 569,
+        "A": 80
+      },
+      "risk_rate_pct": {
+        "A": 15.0,
+        "T": 15.47
+      }
+    },
+    "Mjob": {
+      "frequency": {
+        "other": 258,
+        "services": 136,
+        "at_home": 135,
+        "teacher": 72,
+        "health": 48
+      },
+      "risk_rate_pct": {
+        "at_home": 21.48,
+        "health": 12.5,
+        "other": 16.28,
+        "services": 13.97,
+        "teacher": 5.56
+      }
+    },
+    "Fjob": {
+      "frequency": {
+        "other": 367,
+        "services": 181,
+        "at_home": 42,
+        "teacher": 36,
+        "health": 23
+      },
+      "risk_rate_pct": {
+        "at_home": 16.67,
+        "health": 13.04,
+        "other": 14.71,
+        "services": 18.23,
+        "teacher": 8.33
+      }
+    },
+    "reason": {
+      "frequency": {
+        "course": 285,
+        "home": 149,
+        "reputation": 143,
+        "other": 72
+      },
+      "risk_rate_pct": {
+        "course": 19.3,
+        "home": 11.41,
+        "other": 25.0,
+        "reputation": 6.99
+      }
+    },
+    "guardian": {
+      "frequency": {
+        "mother": 455,
+        "father": 153,
+        "other": 41
+      },
+      "risk_rate_pct": {
+        "father": 10.46,
+        "mother": 16.48,
+        "other": 21.95
+      }
+    },
+    "schoolsup": {
+      "frequency": {
+        "no": 581,
+        "yes": 68
+      },
+      "risk_rate_pct": {
+        "no": 15.83,
+        "yes": 11.76
+      }
+    },
+    "famsup": {
+      "frequency": {
+        "yes": 398,
+        "no": 251
+      },
+      "risk_rate_pct": {
+        "no": 17.13,
+        "yes": 14.32
+      }
+    },
+    "paid": {
+      "frequency": {
+        "no": 610,
+        "yes": 39
+      },
+      "risk_rate_pct": {
+        "no": 14.92,
+        "yes": 23.08
+      }
+    },
+    "activities": {
+      "frequency": {
+        "no": 334,
+        "yes": 315
+      },
+      "risk_rate_pct": {
+        "no": 17.07,
+        "yes": 13.65
+      }
+    },
+    "nursery": {
+      "frequency": {
+        "yes": 521,
+        "no": 128
+      },
+      "risk_rate_pct": {
+        "no": 14.84,
+        "yes": 15.55
+      }
+    },
+    "higher": {
+      "frequency": {
+        "yes": 580,
+        "no": 69
+      },
+      "risk_rate_pct": {
+        "no": 47.83,
+        "yes": 11.55
+      }
+    },
+    "internet": {
+      "frequency": {
+        "yes": 498,
+        "no": 151
+      },
+      "risk_rate_pct": {
+        "no": 21.19,
+        "yes": 13.65
+      }
+    },
+    "romantic": {
+      "frequency": {
+        "no": 410,
+        "yes": 239
+      },
+      "risk_rate_pct": {
+        "no": 13.17,
+        "yes": 19.25
+      }
+    }
+  },
+  "correlations_with_at_risk": {
+    "age": 0.11072210799523031,
+    "Medu": -0.14480259585376204,
+    "Fedu": -0.14624905788370426,
+    "traveltime": 0.05786862342531719,
+    "studytime": -0.16511081549233925,
+    "failures": 0.3802371663305382,
+    "famrel": -0.04498703522289865,
+    "freetime": 0.09334939826896417,
+    "goout": 0.06724105426265307,
+    "Dalc": 0.12362742012257176,
+    "Walc": 0.11624854416801667,
+    "health": 0.009979218194109334,
+    "absences": 0.08748280690435456
+  }
+}
