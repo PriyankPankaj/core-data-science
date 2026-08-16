@@ -1,0 +1,22 @@
+{
+  "real_effect_scenario": {
+    "n_simulations": 1000,
+    "baseline_rate": 0.19020134228187918,
+    "true_effect": -0.008201298315205913,
+    "n_per_group": 44700,
+    "power_achieved": 0.885,
+    "effect_estimate_mean": -0.00820255033557047,
+    "effect_estimate_bias": -1.2520203645574601e-06,
+    "ci_coverage_rate": 0.95
+  },
+  "null_effect_scenario": {
+    "n_simulations": 1000,
+    "baseline_rate": 0.19020134228187918,
+    "true_effect": 0.0,
+    "n_per_group": 44700,
+    "power_achieved": 0.052,
+    "effect_estimate_mean": 1.8791946308726048e-06,
+    "effect_estimate_bias": 1.8791946308726048e-06,
+    "ci_coverage_rate": 0.948
+  }
+}
