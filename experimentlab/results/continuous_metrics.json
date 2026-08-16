@@ -1,0 +1,19 @@
+{
+  "metric": "sum_gamerounds",
+  "test": "Mann-Whitney U",
+  "assumptions_normal": false,
+  "control_mean": 52.45626398210291,
+  "control_median": 17.0,
+  "control_variance": 65903.32189749404,
+  "treatment_mean": 51.29877552814966,
+  "treatment_median": 16.0,
+  "treatment_variance": 10669.736421513297,
+  "mean_difference": -1.157488453953249,
+  "ci_95_low": -3.7196992718719843,
+  "ci_95_high": 1.4047223639654862,
+  "statistic": 1009027049.5,
+  "p_value": 0.05020880772044255,
+  "significant": false,
+  "effect_size_name": "Rank-biserial correlation",
+  "effect_size": 0.007526563813175513
+}
