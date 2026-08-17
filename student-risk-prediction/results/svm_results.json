@@ -1,0 +1,55 @@
+{
+  "SVM_Linear": {
+    "best_params": {
+      "clf__C": 0.01
+    },
+    "cv_f1": 0.4934026701471028,
+    "test_metrics": {
+      "accuracy": 0.8,
+      "precision": 0.38461538461538464,
+      "recall": 0.5,
+      "f1": 0.43478260869565216,
+      "roc_auc": 0.7868181818181819,
+      "pr_auc": 0.37085769178624867,
+      "confusion_matrix": [
+        [
+          94,
+          16
+        ],
+        [
+          10,
+          10
+        ]
+      ]
+    },
+    "training_time_sec": 26.535253524780273,
+    "inference_time_sec": 0.028078317642211914
+  },
+  "SVM_RBF": {
+    "best_params": {
+      "clf__C": 1,
+      "clf__gamma": 0.01
+    },
+    "cv_f1": 0.5222557980575117,
+    "test_metrics": {
+      "accuracy": 0.8153846153846154,
+      "precision": 0.42857142857142855,
+      "recall": 0.6,
+      "f1": 0.5,
+      "roc_auc": 0.8127272727272727,
+      "pr_auc": 0.4294294886593213,
+      "confusion_matrix": [
+        [
+          94,
+          16
+        ],
+        [
+          8,
+          12
+        ]
+      ]
+    },
+    "training_time_sec": 1.6302893161773682,
+    "inference_time_sec": 0.03560066223144531
+  }
+}
