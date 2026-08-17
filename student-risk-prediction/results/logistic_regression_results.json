@@ -1,0 +1,54 @@
+{
+  "LogisticRegression_unweighted": {
+    "best_params": {
+      "clf__C": 0.1
+    },
+    "cv_roc_auc": 0.808633751306165,
+    "test_metrics": {
+      "accuracy": 0.8307692307692308,
+      "precision": 0.375,
+      "recall": 0.15,
+      "f1": 0.21428571428571427,
+      "roc_auc": 0.7736363636363637,
+      "pr_auc": 0.3454667218547993,
+      "confusion_matrix": [
+        [
+          105,
+          5
+        ],
+        [
+          17,
+          3
+        ]
+      ]
+    },
+    "training_time_sec": 11.298561811447144,
+    "inference_time_sec": 0.0419459342956543
+  },
+  "LogisticRegression_balanced": {
+    "best_params": {
+      "clf__C": 0.01
+    },
+    "cv_roc_auc": 0.8074075888192267,
+    "test_metrics": {
+      "accuracy": 0.8076923076923077,
+      "precision": 0.4074074074074074,
+      "recall": 0.55,
+      "f1": 0.46808510638297873,
+      "roc_auc": 0.7595454545454545,
+      "pr_auc": 0.33161472032598793,
+      "confusion_matrix": [
+        [
+          94,
+          16
+        ],
+        [
+          9,
+          11
+        ]
+      ]
+    },
+    "training_time_sec": 0.35134220123291016,
+    "inference_time_sec": 0.028090476989746094
+  }
+}
