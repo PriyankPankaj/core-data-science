@@ -16,7 +16,10 @@ import joblib
 import shap
 import json
 
-RESULTS_DIR = "results"
+from pathlib import Path
+
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+RESULTS_DIR = PROJECT_ROOT / "results"
 
 FEATURE_SUGGESTIONS = {
     "failures": "Past class failures — consider academic support/tutoring resources.",
