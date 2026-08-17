@@ -1,0 +1,26 @@
+{
+  "predicted_risk": "At Risk",
+  "risk_level": "HIGH",
+  "risk_probability": 0.8374,
+  "top_contributing_factors": [
+    {
+      "feature": "num__failures",
+      "shap_value": 0.06496372864160536,
+      "direction": "increases risk",
+      "analytical_suggestion": "Past class failures \u2014 consider academic support/tutoring resources."
+    },
+    {
+      "feature": "num__failure_risk_flag",
+      "shap_value": 0.06226821978972577,
+      "direction": "increases risk",
+      "analytical_suggestion": "History of failing a class \u2014 consider academic support/tutoring resources."
+    },
+    {
+      "feature": "num__study_efficiency",
+      "shap_value": 0.057904022271565915,
+      "direction": "increases risk",
+      "analytical_suggestion": "Study time not translating into avoided failures \u2014 consider a different study approach or targeted tutoring."
+    }
+  ],
+  "disclaimer": "These are analytical suggestions based on statistical patterns, not guaranteed interventions, medical advice, or disciplinary conclusions."
+}
