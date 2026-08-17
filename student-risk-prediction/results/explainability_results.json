@@ -1,0 +1,97 @@
+{
+  "rf_permutation_importance_top10": [
+    {
+      "feature": "total_alcohol_consumption",
+      "importance_mean": 0.10807568683915822,
+      "importance_std": 0.036068141422539425
+    },
+    {
+      "feature": "Fedu",
+      "importance_mean": 0.0819335278070389,
+      "importance_std": 0.04766325340359818
+    },
+    {
+      "feature": "school",
+      "importance_mean": 0.07563805545938276,
+      "importance_std": 0.031262458382245964
+    },
+    {
+      "feature": "higher",
+      "importance_mean": 0.0756211687427916,
+      "importance_std": 0.027330032757600792
+    },
+    {
+      "feature": "sex",
+      "importance_mean": 0.07366231801852904,
+      "importance_std": 0.025818155076571887
+    },
+    {
+      "feature": "Walc",
+      "importance_mean": 0.0690204737595549,
+      "importance_std": 0.037289448015185425
+    },
+    {
+      "feature": "wants_higher_no_support",
+      "importance_mean": 0.058536383609225986,
+      "importance_std": 0.027647382940023096
+    },
+    {
+      "feature": "goout",
+      "importance_mean": 0.05485607226957201,
+      "importance_std": 0.030711578533128715
+    },
+    {
+      "feature": "study_efficiency",
+      "importance_mean": 0.04410852713178297,
+      "importance_std": 0.042720573851311304
+    },
+    {
+      "feature": "activities",
+      "importance_mean": 0.042443035001174564,
+      "importance_std": 0.018417551744942962
+    }
+  ],
+  "linear_svm_coefficients_top10": [
+    {
+      "feature": "cat__school_MS",
+      "coefficient": 0.4258207397998028
+    },
+    {
+      "feature": "num__failure_risk_flag",
+      "coefficient": 0.3653118943232493
+    },
+    {
+      "feature": "num__study_efficiency",
+      "coefficient": -0.21313180734308385
+    },
+    {
+      "feature": "num__wants_higher_no_support",
+      "coefficient": -0.2060298255900627
+    },
+    {
+      "feature": "cat__guardian_mother",
+      "coefficient": 0.14914856170894525
+    },
+    {
+      "feature": "cat__higher_yes",
+      "coefficient": -0.1416117416612842
+    },
+    {
+      "feature": "num__absences",
+      "coefficient": 0.12205865076024565
+    },
+    {
+      "feature": "num__Fedu",
+      "coefficient": -0.11517837571683141
+    },
+    {
+      "feature": "num__failures",
+      "coefficient": 0.11453940003735323
+    },
+    {
+      "feature": "cat__activities_yes",
+      "coefficient": -0.0919006112124808
+    }
+  ],
+  "causal_interpretation_caveat": "These are learned associations, not causal claims. No feature can be said to 'cause' academic risk based on this observational analysis alone."
+}
